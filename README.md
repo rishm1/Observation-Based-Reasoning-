@@ -35,7 +35,21 @@ Given a problem, follow these steps:
 1. Observation: What do you notice about this problem?
 2. Questions: What key questions arise from these observations?
 3. Hypothesis: What could explain these observations?
-4. Test: Let&#39;s verify this explanation step by step
+4. Test: Lets verify this explanation step by step
 5. Refine: Based on the test, update your understanding
 6. Conclude: Answer the original problem with your refined knowledge
 Problem: [Insert test case]
+
+Our initial test results show promosing results. We tested our prompting technoique on the notorious alice in wonderland problem where "alice has x brothers and y sisters. how many sisters does alice's brother have? We used claude 3.5 sonnet at base prompt and received an incorrect answer. We then used claude 3.5 haiku with our observation based reasoning technique and received the correct answer. We then asked multiple logical, reasoing  & cause and effect relationship questions & saw a siginficant increase in the answer quality.
+
+Our results show that by mimicing the scientific discovery method. The model is able to create hypothesis based on the observations. The hypothesis might hallucinate but by verifying it with facts & logic in the refine section. We force the model to correct itself before presenting the final conclusion making the model more reliable and hallucinate less. 
+
+Future work:
+1) Validating on benchmark datasets like multi-logi eval, big bench hard, etc.
+2) Comparing it to COT & TOT.
+3) Fine tuning the model to teach it different types ofquestions to ask in different cases.
+4) Use the same principals with a multimodal or physics informed neural network, place it in a stimulation and feed it observations and ask the model questions to check it's understanding of the observations.
+5) Give the models extarnal tools to aid in the testing part.(React 2023)
+
+   References
+   Chain of thought paper, Tree of thought paper, React Paper (2023)
