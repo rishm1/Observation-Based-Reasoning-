@@ -42,7 +42,7 @@ Given a problem, follow these steps:
 6. Conclude: Answer the original problem with your refined knowledge
 Problem: [Insert test case]
 
-Our initial test results show promosing results. We tested our prompting technoique on the notorious alice in wonderland problem where "alice has x brothers and y sisters. how many sisters does alice's brother have? We used claude 3.5 sonnet at base prompt and received an incorrect answer. We then used claude 3.5 haiku with our observation based reasoning technique and received the correct answer. We then asked multiple logical, reasoing  & cause and effect relationship questions & saw a siginficant increase in the answer quality.
+Our initial test results show promosing results. We tested our prompting technoique on the notorious alice in wonderland problem where "alice has x brothers and y sisters. how many sisters does alice's brother have? We used claude 3.5 sonnet at base prompt and received an incorrect answer, we then used claude 3.5 haiku(smaller model compared to sonnet) with our observation based reasoning technique and received the correct answer. We then asked multiple logical, reasoing  & cause and effect relationship questions & saw a siginficant increase in the answer quality.
 
 Our results show that by mimicing the scientific discovery method. The model is able to create hypothesis based on the observations. The hypothesis might hallucinate but by verifying it with facts & logic in the refine section. We force the model to correct itself before presenting the final conclusion making the model more reliable and hallucinate less. 
 
