@@ -1,0 +1,14 @@
+```python
+def IOR_prompt(problem):
+    template = """
+    Given a problem, follow these steps:
+    1. Observation: What do you notice about this problem?
+    2. Questions: What key questions arise from these observations?
+    3. Hypothesis: What could explain these observations?
+    4. Test: Let's verify this explanation step by step
+    5. Refine: Based on the test, update your understanding
+    6. Conclude: Answer the original problem with your refined knowledge
+   
+    Problem: {problem}
+    """
+    return template.format(problem=problem)
