@@ -1,4 +1,5 @@
-# Observation-Based-Reasoning-
+# Observation-Based-Reasoning                                                                                     Author: Rish Midha 
+
 Observation based reasoning is a novel prompting technique that aims to enhance reasoning capabilities in large and small language models.
 
 Observation-Based Reasoning, a novel prompting technique that enhances LLMs&#39; reasoning
